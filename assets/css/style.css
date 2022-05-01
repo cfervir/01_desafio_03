@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+*, *::after, *::before { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1, h2, p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* HEADER START */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    line-height: 59px;
+    padding: 7px 0;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+/* PART ONE START */
+
+.part-one {
+    display: flow-root;
+    padding: 0 150px;
+    overflow: hidden;
+}
+
+.part-one-data-container {
+    padding: 76px 0;
+}
+
+.part-one-data + .part-one-data {
+    padding-top: 1.25em;
+}
+
+.part-one-data {
+    max-width: 475px;
+    line-height: 19px;
+}
+
+.part-one-image {
+    margin: 45px 0 66px;
+    float: right;
+    width: 100%;
+    max-width: 399px;
+    height: 237px;
+    object-fit: cover;
+}
+
+/* PART ONE END */
+/* PART TWO START */
+
+.part-two {
+    background-color: #1E1A13;
+}
+
+.part-two h2 {
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 50px;
+}
+
+.container-part-two {
+    text-align: center;
+    padding: 75px 0;
+}
+
+.part-two-icons {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+.part-two-icons p {
+    padding-top: 16px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* PART TWO END */
+/* PART THREE START */
+
+.part-three {
+    text-align: center;
+    padding: 73px 0 57px;
+}
+
+.container-fig {
+    display: inline-block;
+    padding: 0 8px 16px;
+}
+
+.part-three-img {
+    width: 316px;
+    height: 202px;
+    object-fit: cover;
+}
+
+/* PART THREE END */
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+    text-align: center;
+    background-color: #1E1A13;
+    padding: 39px 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+    font-weight: 500;
+}
+
+/* FOOTER END */
